@@ -1,0 +1,17 @@
+.App{
+  text-align: center;
+}
+
+.center{
+  display: flex;
+  justify-content: center
+}
+
+.particles { /*Esta clase permite poner el div en toda la pantalla y además lo ajusta en el background*/
+  position: fixed; /* Posicion fixed en conjunto con top, right, left, bottom en zero permite ajustar a toda la pantalla*/
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1; /*Permite mantener el div de background con -1*/
+}
